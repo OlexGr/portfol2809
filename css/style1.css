@@ -27,7 +27,7 @@ ul {
     list-style: none;
 }
 
-header {   
+header {
     height: 85px;
     width: 1920px;
     font-family: lato;
@@ -41,7 +41,7 @@ header a {
 }
 
 .logo {
-    float: left; 
+    float: left;
     margin-left: 275px;
     margin-right: 172px;
 }
@@ -72,7 +72,7 @@ header button {
     margin-left: 35px;
     /* left: 35px; */
     top: 17px;
-   
+
 }
 
 .hero {
@@ -93,7 +93,8 @@ header button {
     left: 275px;
     top: 261px;
     width: 440px;
-    font-size: 65px;margin-bottom: 30px;
+    font-size: 65px;
+    margin-bottom: 30px;
 }
 
 .hero p {
@@ -110,6 +111,7 @@ header button {
     padding: 20px 50px;
 }
 
-footer, .story {
+footer,
+.story {
     background-color: var(--second-color);
 }
