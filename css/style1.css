@@ -111,6 +111,58 @@ header button {
     padding: 20px 50px;
 }
 
+.how_it_works {
+    padding-left: 275px;
+    padding-top: 169px;
+    padding-right: 254px;
+}
+
+.steps {
+    
+    /* margin: 169px 254px 0 275px;     */
+    /* width: 1391px;
+    height: 327px; */
+}
+
+.steps h2 {
+    color: #424242;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    
+}
+
+.steps h3{
+    width: 584px;
+    height: 158px;
+    float: left;
+    margin-right: 136px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+  }
+
+.steps p {   
+    height: 158px;  
+    color: #424242;
+    font-family: 'Lato';
+    line-height: 150%;
+}
+
+.how_it_works li {
+    border: 5px solid #00a;
+    width: 390px;
+    /* float: left; */
+    margin-right: 95px;
+}
+
+/* .how_it_works li:last-child {
+    float: none;
+} */
+
 footer,
 .story {
     background-color: var(--second-color);
