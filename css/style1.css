@@ -11,8 +11,8 @@
 body {
     font-size: 20px;
     color: var(--main-color);
-    position: relative;
-    width: 1920px;
+    position: relative;  
+    box-sizing: border-box;   
 }
 
 a {
@@ -199,6 +199,56 @@ margin-right: 0;
     font-size: 20px;
     line-height: 150%;    
     color: #424242;
+}
+
+.story {
+    width: 1920px;
+}
+
+.story-text {
+    width: 580px;
+    float: left;
+    margin-left: 207px;
+    margin-top: 310px;
+    margin-right: 31px;
+    /* border: 5px solid #600; */
+}
+
+.story h2 {
+    margin-bottom: 33px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+}
+
+.story p {
+    margin-bottom: 57px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157%;    
+    color: #FFFFFF;
+}
+
+.story button {
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    padding: 20px 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.story video {
+    margin-top: 229px;
+    margin-bottom: 177px;
 }
 
 footer,
